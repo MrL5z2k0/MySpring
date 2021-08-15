@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="686f750d-7dc5-4322-9d3c-503616590b69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringTiny/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/BeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/main/java/com/lzk/springframework/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/test/java/com/lzk/springframework/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTiny/src/test/java/com/lzk/springframework/bean/UserService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wks3WkFwZmS1hk2NYaIZpRGuOw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lzk.springframework" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiTest.test_BeanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTiny" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lzk.springframework.beans.factory.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lzk.springframework" />
+      <option name="MAIN_CLASS_NAME" value="com.lzk.springframework.ApiTest" />
+      <option name="METHOD_NAME" value="test_BeanFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.test_BeanFactory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="686f750d-7dc5-4322-9d3c-503616590b69" name="Default Changelist" comment="" />
+      <created>1629013721620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629013721620</updated>
+      <workItem from="1629013725513" duration="10511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1629031329772">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629031329772" />
+    <state x="544" y="299" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1629027101341">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="544" y="299" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629027101341" />
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1629026765077">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629026765077" />
+    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1629026765077">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629026765077" />
+    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1629026765077">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629026765077" />
+    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1629026765077">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629026765077" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1629031273635">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629031273635" />
+    <state x="499" y="181" key="extract.method.dialog" timestamp="1629029188677">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="181" key="extract.method.dialog/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629029188677" />
+    <state x="401" y="93" key="new project wizard" timestamp="1629014026220">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="401" y="93" key="new project wizard/0.0.1536.864/-235.-1440.2048.1152@0.0.1536.864" timestamp="1629014026220" />
+  </component>
+</project>
