@@ -1,6 +1,6 @@
 package com.lzk.springframework.beans.factory.support;
 
-import com.lzk.springframework.BeansException;
+import com.lzk.springframework.beans.BeansException;
 import com.lzk.springframework.beans.factory.config.BeanDefinition;
 
 import java.lang.reflect.Constructor;

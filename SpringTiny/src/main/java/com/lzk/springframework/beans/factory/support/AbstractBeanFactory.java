@@ -1,7 +1,7 @@
 package com.lzk.springframework.beans.factory.support;
 
 import com.lzk.springframework.beans.factory.BeanFactory;
-import com.lzk.springframework.BeansException;
+import com.lzk.springframework.beans.BeansException;
 import com.lzk.springframework.beans.factory.config.BeanDefinition;
 
 /**
@@ -17,6 +17,11 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
     @Override
     public Object getBean(String name, Object... args) throws BeansException {
         return doGetBean(name, args);
+    }
+
+    @Override
+    public <T> T getBean(String name, Class<T> requiredType) throws BeansException {
+        return (T) getBean(name);
     }
 
     protected <T> T doGetBean(final String name, final Object[] args) {

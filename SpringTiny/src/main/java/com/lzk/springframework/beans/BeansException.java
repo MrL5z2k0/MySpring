@@ -1,4 +1,4 @@
-package com.lzk.springframework;
+package com.lzk.springframework.beans;
 
 /**
  * @author lzk

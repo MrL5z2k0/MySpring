@@ -1,7 +1,7 @@
 package com.lzk.springframework.beans.factory.config;
 
 
-import com.lzk.springframework.beans.factory.PropertyValues;
+import com.lzk.springframework.beans.PropertyValues;
 
 /**
  * @author lzk

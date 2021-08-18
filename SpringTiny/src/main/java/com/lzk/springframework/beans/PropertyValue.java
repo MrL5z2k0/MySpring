@@ -1,4 +1,4 @@
-package com.lzk.springframework.beans.factory;
+package com.lzk.springframework.beans;
 
 /**
  * @author kasuo

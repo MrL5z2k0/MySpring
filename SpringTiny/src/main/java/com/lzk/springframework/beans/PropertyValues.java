@@ -1,4 +1,6 @@
-package com.lzk.springframework.beans.factory;
+package com.lzk.springframework.beans;
+
+import com.lzk.springframework.beans.PropertyValue;
 
 import java.util.ArrayList;
 import java.util.List;
