@@ -3,6 +3,7 @@ package com.lzk.springframework.beans.factory.support;
 import com.lzk.springframework.beans.BeansException;
 import com.lzk.springframework.beans.factory.ConfigurableListableBeanFactory;
 import com.lzk.springframework.beans.factory.config.BeanDefinition;
+import com.lzk.springframework.beans.factory.config.BeanPostProcessor;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +23,11 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
             throw new BeansException("No such bean:" + beanName);
         }
         return beanDefinition;
+    }
+
+    @Override
+    public void preInstantiateSingletons() throws BeansException {
+        beanDefinitionMap.keySet().forEach(this::getBean);
     }
 
     @Override
