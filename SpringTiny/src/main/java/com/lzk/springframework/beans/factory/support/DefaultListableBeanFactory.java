@@ -12,12 +12,14 @@ import java.util.Map;
  */
 public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry{
 
-    private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<>();
+    private Map<String, BeanDefinition> beanDefinitionMap = new HashMap<String, BeanDefinition>();
 
     @Override
     protected BeanDefinition getBeanDefinition(String beanName) throws BeansException {
         BeanDefinition beanDefinition = beanDefinitionMap.get(beanName);
-        if(beanDefinition == null) throw new BeansException("No such bean:" + beanName);
+        if(beanDefinition == null) {
+            throw new BeansException("No such bean:" + beanName);
+        }
         return beanDefinition;
     }
 
