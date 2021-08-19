@@ -9,6 +9,10 @@ import com.lzk.springframework.beans.PropertyValues;
  */
 public class BeanDefinition {
 
+    String SCOPE_SINGLETON = ConfigurableBeanFactory.SCOPE_SINGLETON;
+
+    String SCOPE_PROTOTYPE = ConfigurableBeanFactory.SCOPE_PROTOTYPE;
+
     private Class beanClass;
 
     private PropertyValues propertyValues;
@@ -17,9 +21,14 @@ public class BeanDefinition {
 
     private String destroyMethodName;
 
+    private String scope = SCOPE_SINGLETON;
+
+    private boolean singleton = true;
+
+    private boolean prototype = false;
+
     public BeanDefinition(Class beanClass) {
-        this.beanClass = beanClass;
-        this.propertyValues = new PropertyValues();
+        this(beanClass, null);
     }
 
     public BeanDefinition(Class beanClass, PropertyValues propertyValues) {
@@ -27,12 +36,18 @@ public class BeanDefinition {
         this.propertyValues = propertyValues != null ? propertyValues : new PropertyValues();
     }
 
-    public PropertyValues getPropertyValues() {
-        return propertyValues;
+    public void setScope(String scope) {
+        this.scope = scope;
+        this.singleton = SCOPE_SINGLETON.equals(scope);
+        this.prototype = SCOPE_PROTOTYPE.equals(scope);
     }
 
-    public void setPropertyValues(PropertyValues propertyValues) {
-        this.propertyValues = propertyValues;
+    public boolean singleton() {
+        return singleton;
+    }
+
+    public boolean prototype() {
+        return prototype;
     }
 
     public Class getBeanClass() {
@@ -41,6 +56,14 @@ public class BeanDefinition {
 
     public void setBeanClass(Class beanClass) {
         this.beanClass = beanClass;
+    }
+
+    public PropertyValues getPropertyValues() {
+        return propertyValues;
+    }
+
+    public void setPropertyValues(PropertyValues propertyValues) {
+        this.propertyValues = propertyValues;
     }
 
     public String getInitMethodName() {
