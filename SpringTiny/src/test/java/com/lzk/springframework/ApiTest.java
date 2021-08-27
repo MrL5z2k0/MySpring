@@ -3,6 +3,7 @@ package com.lzk.springframework;
 import com.lzk.springframework.bean.UserService;
 import com.lzk.springframework.beans.factory.config.BeanDefinition;
 import com.lzk.springframework.beans.factory.support.DefaultListableBeanFactory;
+import com.lzk.springframework.context.support.ClassPathXmlApplicationContext;
 import org.junit.Test;
 
 /**
@@ -24,6 +25,23 @@ public class ApiTest {
         // 4.第二次获取 bean from Singleton
         UserService userService_singleton = (UserService) beanFactory.getBean("userService");
         userService_singleton.queryUserInfo();
+    }
+
+    @Test
+    public void test_xml() {
+        // 1.初始化 BeanFactory
+        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring.xml");
+        applicationContext.registerShutdownHook();
+
+        // 2. 获取Bean对象调用方法
+        UserService userService = applicationContext.getBean("userService", UserService.class);
+        String result = userService.queryUserInfo();
+        System.out.println("测试结果：" + result);
+    }
+
+    @Test
+    public void test_hook() {
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> System.out.println("close！")));
     }
 
 }
